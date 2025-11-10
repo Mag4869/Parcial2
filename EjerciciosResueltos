@@ -1,0 +1,42 @@
+# 1.Desarrollar un programa que determine si en una lista no existen elementos repetidos
+def ejerc1():
+    listaingresada1=input("Ingrese los numeros o letras que quiera separados por espacios: ")
+    list1= listaingresada1.split()
+    var1 = []
+    for i in list1:
+        if list1.count(i) > 1 and i not in var1:
+            var1.append(i)
+    if var1 == []:
+        print("En la lista que ingresaste no hay elementos repetidos")
+    else:
+        print(f"Los elementos que se repiten en esta lista son: {var1}")
+# 2.Desarrollar un programa que determine si en una lista se encuentra una cadena de caracteres con dos o mas vocales, si la cadena existe debe imprimirla y si no existe debe imprimir "no existe"
+def ejerc2():
+    listaingresada2 = input("Ingrese palabras separadas por espacios para formar su lista: ")
+    list2 = listaingresada2.split()
+    print(list2)
+
+    vocales = "aeiou"
+    varauxiliar = False
+
+    for i in list2:
+        var2 = sum(1 for z in i if z in vocales)
+        if var2 >= 2:
+            print(f"Esta palabra tiene mas de dos vocales {i}")
+            varauxiliar = True
+    if not varauxiliar:
+        print("no existe una palabra en tu lista que tenga mas de dos vocales")
+# 3.Desarrolar un programa que dadas dos listas determine que elementos tiene la primera lista que no tenga la segunda lista
+def ejerc3():
+    listaingresada31 = input("Ingrese palabras separadas por espacios para formar una lista: ")
+    list31=listaingresada31.split()
+    listaingresada32 = input("Ingrese palabras separadas por espacios para formar otra lista: ")
+    list32=listaingresada32.split()
+    elementoscomun = [i for i in list31 if i not in list32]
+
+    if elementoscomun:
+        print(f"Estos son los elementos que tiene la primera lista y la segunda no: {elementoscomun}")
+    else:
+        print("No hay elementos en la primera lista que no estén en la segunda.")
+
+# 4.Desarrolar un programa que calcule el promedio de un arreglo de reales.
