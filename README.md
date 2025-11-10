@@ -1,1 +1,3 @@
-# Parcial2
+# Miguel Galindo
+## Ejercicios del parcial
+### 
