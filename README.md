@@ -2,7 +2,6 @@
 ## Ejercicios del parcial
 ### El ejercicio 1 nos pide verificar si hay elementos repetidos en una lista, aqui los diferentes casos que puede presentar el algoritmo
 <img width="581" height="31" alt="image" src="https://github.com/user-attachments/assets/64011e48-7e2e-40d8-b42f-0740b49b427b" />
-### Aqui ingresamos letras repetidas y el programa lo identifica
 ### Ahora un caso donde no hayan letras repetidas
 <img width="528" height="36" alt="image" src="https://github.com/user-attachments/assets/e398273c-7870-456f-8dcc-b53779fc3012" />
 ### El ejercicio 2 nos pide verificar si en la lista hay palabras que tengas mas de dos vocales
